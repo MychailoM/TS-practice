@@ -1,0 +1,21 @@
+{
+  "name": "ts-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && npx serve .",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MychailoM/TS-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MychailoM/TS-practice/issues"
+  },
+  "homepage": "https://github.com/MychailoM/TS-practice#readme"
+}
