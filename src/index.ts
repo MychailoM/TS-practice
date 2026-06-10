@@ -109,6 +109,9 @@
 // - метод checkPassword(input)
 // - метод changePassword(oldPass, newPass)
 
+
+//HW
+
 let oldPass = (document.querySelector('.oldPass') as HTMLInputElement);
 let input = (document.querySelector('.pass') as HTMLInputElement);
 let change = (document.querySelector('.change') as HTMLButtonElement);
@@ -141,7 +144,3 @@ check.addEventListener('click', () => {
 change.addEventListener('click', () => {
   console.log(user.changePassword(Number(oldPass.value), Number(input.value)))
 })
-
-// if (input) {
-//   console.log(user.checkPassword(Number(input)));
-// }
